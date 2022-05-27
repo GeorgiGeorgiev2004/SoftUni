@@ -6,7 +6,7 @@ namespace _01._Integer_Operations
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int pepega = 567;
         }
     }
 }
