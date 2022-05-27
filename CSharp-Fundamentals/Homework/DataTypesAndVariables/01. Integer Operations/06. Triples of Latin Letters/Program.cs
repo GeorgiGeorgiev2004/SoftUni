@@ -18,7 +18,6 @@ namespace _06._Triples_of_Latin_Letters
                     }
                 }
             }
-
         }
     }
 }
