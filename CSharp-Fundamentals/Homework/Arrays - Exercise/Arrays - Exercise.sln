@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays - Exercise", "Arrays - Exercise\Arrays - Exercise.csproj", "{89072A63-6813-48B4-9090-CD4763ED9AB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays - Exercise", "Arrays - Exercise\Arrays - Exercise.csproj", "{89072A63-6813-48B4-9090-CD4763ED9AB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Train", "train\01. Train.csproj", "{92223FD4-106C-474F-8E99-848A51AF2E07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Train", "train\01. Train.csproj", "{92223FD4-106C-474F-8E99-848A51AF2E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Common Elements", "02. Common Elements\02. Common Elements.csproj", "{A791E7DA-BC1F-46C2-ACF2-6BF8402DD110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Common Elements", "02. Common Elements\02. Common Elements.csproj", "{A791E7DA-BC1F-46C2-ACF2-6BF8402DD110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Zig-Zag Arrays", "03. Zig-Zag Arrays\03. Zig-Zag Arrays.csproj", "{30ACFF7E-5083-4950-8C50-51FBECF548E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Zig-Zag Arrays", "03. Zig-Zag Arrays\03. Zig-Zag Arrays.csproj", "{30ACFF7E-5083-4950-8C50-51FBECF548E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Array Rotation", "04. Array Rotation\04. Array Rotation.csproj", "{E5FD1AE9-84D0-4258-99F6-0D6C27BE8CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Array Rotation", "04. Array Rotation\04. Array Rotation.csproj", "{E5FD1AE9-84D0-4258-99F6-0D6C27BE8CCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Top Integers", "05. Top Integers\05. Top Integers.csproj", "{58CA4D96-B725-4414-B0B9-92B4837BA94F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Top Integers", "05. Top Integers\05. Top Integers.csproj", "{58CA4D96-B725-4414-B0B9-92B4837BA94F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Equal Sum", "06. Equal Sum\06. Equal Sum.csproj", "{7D6F7AB9-E300-4B6B-A091-28F278DAF082}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Equal Sum", "06. Equal Sum\06. Equal Sum.csproj", "{7D6F7AB9-E300-4B6B-A091-28F278DAF082}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Max Sequence of Equal Elements", "07. Max Sequence of Equal Elements\07. Max Sequence of Equal Elements.csproj", "{7AF7E7F6-7EB9-4FEC-8B93-46AA9B162A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Max Sequence of Equal Elements", "07. Max Sequence of Equal Elements\07. Max Sequence of Equal Elements.csproj", "{7AF7E7F6-7EB9-4FEC-8B93-46AA9B162A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Magic Sum", "08. Magic Sum\08. Magic Sum.csproj", "{260BBF73-EE42-4A1E-A5E4-D4A419286731}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{7AF7E7F6-7EB9-4FEC-8B93-46AA9B162A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AF7E7F6-7EB9-4FEC-8B93-46AA9B162A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AF7E7F6-7EB9-4FEC-8B93-46AA9B162A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260BBF73-EE42-4A1E-A5E4-D4A419286731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260BBF73-EE42-4A1E-A5E4-D4A419286731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260BBF73-EE42-4A1E-A5E4-D4A419286731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260BBF73-EE42-4A1E-A5E4-D4A419286731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
