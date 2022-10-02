@@ -1,10 +1,23 @@
-﻿namespace _11._TriFunction
+﻿using System;
+using System.Linq;
+using System.Collections.Generic;
+namespace _11._TriFunction
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Func<string, int, bool> checkEqualOrLargerNameSum = (name, sum) =>
+                name.Sum(ch => ch) >= sum;
+
+            Func<string[], int, Func<string, int, bool>, string> getFirstName = (names, sum, match) =>
+                names.First(name => match(name, sum));
+
+            int sum = int.Parse(Console.ReadLine());
+
+            string[] names = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+
+            Console.WriteLine(getFirstName(names, sum, checkEqualOrLargerNameSum));
         }
     }
 }
