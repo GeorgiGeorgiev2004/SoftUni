@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterators and Comparators - Exercise", "Iterators and Comparators - Exercise\Iterators and Comparators - Exercise.csproj", "{09B579BE-1B0D-45A5-83B6-D5B6BB7557BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListyIterator", "ListyIterator\ListyIterator.csproj", "{FE91C8FB-B0CE-4022-8583-F8A11C0314D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "Collection\Collection.csproj", "{7EC16460-1F3B-493E-8D73-494846E56725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{9667A606-4AAD-4AFD-97F8-EA0C476B5B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Froggy", "Froggy\Froggy.csproj", "{08068905-B302-48F3-BA86-E7455DD0D14B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingObjects", "ComparingObjects\ComparingObjects.csproj", "{03E16C59-F708-4943-8978-808455516AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomComparator", "CustomComparator\CustomComparator.csproj", "{B21118A5-2236-4BB3-8EF2-D3D14887D1B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09B579BE-1B0D-45A5-83B6-D5B6BB7557BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B579BE-1B0D-45A5-83B6-D5B6BB7557BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B579BE-1B0D-45A5-83B6-D5B6BB7557BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B579BE-1B0D-45A5-83B6-D5B6BB7557BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE91C8FB-B0CE-4022-8583-F8A11C0314D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE91C8FB-B0CE-4022-8583-F8A11C0314D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE91C8FB-B0CE-4022-8583-F8A11C0314D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE91C8FB-B0CE-4022-8583-F8A11C0314D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC16460-1F3B-493E-8D73-494846E56725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC16460-1F3B-493E-8D73-494846E56725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC16460-1F3B-493E-8D73-494846E56725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC16460-1F3B-493E-8D73-494846E56725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9667A606-4AAD-4AFD-97F8-EA0C476B5B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9667A606-4AAD-4AFD-97F8-EA0C476B5B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9667A606-4AAD-4AFD-97F8-EA0C476B5B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9667A606-4AAD-4AFD-97F8-EA0C476B5B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08068905-B302-48F3-BA86-E7455DD0D14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08068905-B302-48F3-BA86-E7455DD0D14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08068905-B302-48F3-BA86-E7455DD0D14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08068905-B302-48F3-BA86-E7455DD0D14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E16C59-F708-4943-8978-808455516AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E16C59-F708-4943-8978-808455516AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E16C59-F708-4943-8978-808455516AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E16C59-F708-4943-8978-808455516AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21118A5-2236-4BB3-8EF2-D3D14887D1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21118A5-2236-4BB3-8EF2-D3D14887D1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21118A5-2236-4BB3-8EF2-D3D14887D1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21118A5-2236-4BB3-8EF2-D3D14887D1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {607183DA-4FB0-4448-9A83-595E62EEC751}
+	EndGlobalSection
+EndGlobal
