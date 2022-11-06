@@ -4,12 +4,12 @@ using System.Text;
 
 namespace NeedForSpeed
 {
-    public  class Vechicle
+    public class Vehicle
     {
         const double DefaultFuelConsumption = 1.25;
         public int HorsePower { get; set; }
         public double Fuel { get; set; }
-        public Vechicle(int horsePower, double fuel)
+        public Vehicle(int horsePower, double fuel)
         {
             HorsePower = horsePower;
             Fuel = fuel;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NeedForSpeed
 {
-    public class Car : Vechicle
+    public class Car : Vehicle
     {
         private const double DefaultCarFuelConsumption = 3;
 

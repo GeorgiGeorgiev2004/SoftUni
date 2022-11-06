@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Restaurant
 {
-    public class Desert : Food
+    public class Dessert : Food
     {
-        public Desert(string name, decimal price, double grams,double calories) : base(name, price, grams)
+        public Dessert(string name, decimal price, double grams,double calories) : base(name, price, grams)
         {
             Calories = calories;
         }

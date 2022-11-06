@@ -1,6 +1,6 @@
 ﻿namespace Restaurant
 {
-    public class Cake : Desert
+    public class Cake : Dessert
     {
         private const double Grams = 250;
         private const double Calories = 1000;

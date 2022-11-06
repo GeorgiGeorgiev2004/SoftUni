@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NeedForSpeed
 {
-    public class Motorcycle:Vechicle
+    public class Motorcycle:Vehicle
     {
         public Motorcycle(int horsepower, double fuel) : base(horsepower, fuel)
         {
