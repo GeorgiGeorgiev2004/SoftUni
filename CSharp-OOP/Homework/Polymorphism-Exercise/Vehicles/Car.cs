@@ -6,28 +6,10 @@ namespace Vehicles
 {
     public class Car : Vehicle
     {
-        const double summerHigh = 0.9;
-        public Car(double fuelQuantity, double fuelConsumption) : base(fuelQuantity, fuelConsumption)
-        {
+        private static readonly double ADDITIONAL_CONSUMPTION = 0.9;
 
-        }
-
-        public override void Drive(double kms)
-        {
-            if ((this.FuelConsumption + summerHigh) * kms > this.FuelQuantity)
-            {
-                this.FuelQuantity -= (this.FuelConsumption + summerHigh) * kms;
-                Console.WriteLine($"Car travelled {kms} km");
-            }
-            else
-            {
-                Console.WriteLine($"Car needs refueling");
-            }
-        }
-
-        public override void Refuel(double lit)
-        {
-            this.FuelQuantity += lit;
-        }
+        public Car(double fuelQuantity, double fuelConsumption)
+            : base(fuelQuantity, fuelConsumption + ADDITIONAL_CONSUMPTION)
+        { }
     }
 }
