@@ -15,7 +15,7 @@ namespace WildFarm
 
         public string Name{ get; set; }
         public double Weight { get; set; }
-        public int FoodEaten { get; set; }
-        public abstract void AskForFood();
+        public double FoodEaten { get; set; }
+        public abstract void AskForFood(Food food);
     }
 }

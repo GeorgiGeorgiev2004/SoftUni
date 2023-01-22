@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehiclesExtension", "Vehicl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raiding", "Raiding\Raiding.csproj", "{068FACDD-7483-4E4A-AA92-EEC350517E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildFarm", "WildFarm\WildFarm.csproj", "{E49A4151-E725-4BDF-AC87-D9C980E54908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildFarm", "WildFarm\WildFarm.csproj", "{E49A4151-E725-4BDF-AC87-D9C980E54908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

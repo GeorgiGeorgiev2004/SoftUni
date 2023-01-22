@@ -14,7 +14,7 @@ namespace WildFarm
 
         public string LivingRegion { get; set; }
 
-        public override void AskForFood()
+        public override void AskForFood(Food food)
         {
             throw new NotImplementedException();
         }

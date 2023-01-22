@@ -14,7 +14,7 @@ namespace WildFarm
             WingSize = wingsize;
         }
         
-        public override void AskForFood()
+        public override void AskForFood(Food food)
         {
             throw new NotImplementedException();
         }

@@ -7,13 +7,19 @@ namespace WildFarm
 {
     public class Food
     {
-        private int quant;
-        public List<string> Foods;
-        public Food()
+        private double quant;
+        public string name;
+        public Food( string Name, double quant )
         {
-            Foods = new List<string>() { "Vegetable", "Fruit", "Meat", "Seeds" };
+            this.quant = quant;
+            this.Name = Name;
         }
-        public int Quantity 
+        public string Name 
+        {
+            get => this.name;
+            set => this.name = value;
+        }
+        public double Quantity 
         {
             get => this.quant;
             set =>this.quant = value;

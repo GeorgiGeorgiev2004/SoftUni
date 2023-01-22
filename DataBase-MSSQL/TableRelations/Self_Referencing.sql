@@ -1,0 +1,9 @@
+CREATE TABLE Teachers(
+TeacherID INT PRIMARY KEY IDENTITY(101,1),
+[Name] NVARCHAR(50),
+ManagerID INT
+);
+
+ALTER TABLE Teachers
+ADD CONSTRAINT FK_Intertwined 
+FOREIGN KEY (ManagerID) REFERENCES Teachers(TeacherID)
