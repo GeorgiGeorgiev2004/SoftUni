@@ -1,5 +1,5 @@
 ﻿@{
-    string filler = ((int)ViewBag.Count != -1) ? "N" : ViewBag.Count.ToString();
+    string filler = ((int)ViewBag.Count > 0) ? ViewBag.Count.ToString() :"N";
     ViewBag.Title = "Nums 1 ... " + filler;
 }
 
