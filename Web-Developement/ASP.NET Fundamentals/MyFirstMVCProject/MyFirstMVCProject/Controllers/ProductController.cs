@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Net.Http.Headers;
 using MyFirstMVCProject.Models.Product;
+using System.Text;
 using System.Text.Json;
 
 namespace MyFirstMVCProject.Controllers
@@ -27,8 +29,15 @@ namespace MyFirstMVCProject.Controllers
                 Price = 1.50
             }
         };
-        public IActionResult All() 
+        [ActionName("My-Products")]
+        public IActionResult All(string word) 
         {
+            if (!string.IsNullOrWhiteSpace(word))
+            {
+                var ProductsSearch = products.Where(p => p.Name
+                .ToLower().Contains(word.ToLower()));
+                return View(ProductsSearch);
+            }
             return View(products);
         }
 
@@ -56,6 +65,16 @@ namespace MyFirstMVCProject.Controllers
                 result += $"Product {p.Id}: {p.Name} - {p.Price} lv.\r\n";
             }
             return Content(result);
+        }
+        public IActionResult AllAsTextFile()
+        {
+            StringBuilder result = new StringBuilder();
+            foreach (var p in products)
+            {
+                result.AppendLine( $"Product {p.Id}: {p.Name} - {p.Price:f2} lv.");
+            }
+            Response.Headers.Add(HeaderNames.ContentDisposition, @"attachment;filename=products.txt");
+            return File(Encoding.UTF32.GetBytes(result.ToString().TrimEnd()),"text/plain");
         }
     }
 }
