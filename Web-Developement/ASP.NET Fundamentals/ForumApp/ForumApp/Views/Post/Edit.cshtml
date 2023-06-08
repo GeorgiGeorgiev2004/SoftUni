@@ -1,0 +1,31 @@
+﻿@model PostFormModel
+@{
+    ViewBag.Title = "Edit Post";
+}
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+<div class="row">
+    <form method="post">
+        <div class="form-group">
+            <div class="mb-3">
+                <label asp-for="Title"></label>
+                © SoftUni – about.softuni.bg. Copyrighted document. Unauthorized copy, reproduction or use is not permitted.
+
+                Follow us: Page 21 of 22
+                <input asp-for="Title" class="form-control" placeholder="Write your
+title here...">
+                <span asp-validation-for="@Model.Title" class="small textdanger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Content"></label>
+                <input asp-for="Content" class="form-control" placeholder="Write
+your post here...">
+                <span asp-validation-for="@Model.Content" class="small textdanger"></span>
+            </div>
+        </div>
+        <input class="btn btn-primary mt-3" type="submit" value="Edit" />
+    </form>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
